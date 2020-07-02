@@ -26,7 +26,7 @@ java -jar javacg/javacg-0.1-SNAPSHOT-static.jar target-jar/demo-customer-0.0.1-S
 ```
 Now create the graph by running:
 ```
-python call-graph-plotter.py call-graph.txt
+python call-graph-plotter.py call-graph.txt ApiDBSelector
 ```
 A new graph will be created in the folder *output*. It's a html file so you can open it in the browser.
 If you used the example jar, this is what you should see in the browser:
