@@ -68,7 +68,7 @@ class ApiDBSelector(NodeSelector):
         for node_id in nodes:
             if "com.example.democustomer.controller.CustomerController" in node_id:
                 source_nodes.append(SourceNode(node_id, 'orange'))
-            elif "com.example.democustomer.controller.StatisticController" in node_id:
+            elif "com.example.democustomer.controller.ReportController" in node_id:
                 source_nodes.append(SourceNode(node_id, 'blue'))
         return source_nodes
 
