@@ -30,5 +30,5 @@ python call-graph-plotter.py call-graph.txt ApiDBSelector
 ```
 A new graph will be created in the folder *output*. It's a html file so you can open it in the browser.
 If you used the example jar, this is what you should see in the browser:
-![Graph in the browser](.img/graph-in-the-browser.PNG)
+![Graph in the browser](.img/demo-customer-in-the-browser.PNG)
 
