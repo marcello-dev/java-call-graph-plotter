@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 Create a call graph from your Jar:
 ```
-java -jar javacg/javacg-0.1-SNAPSHOT-static.jar <yourjar>.jar > call-graph.txt
+java -jar javacg/javacg-0.1-SNAPSHOT-static.jar your-jar.jar MyNodeSelector >  call-graph.txt
 ```
 If you just want to test how it works, you can use the example jar in the folder *target-jar*:
 ```
