@@ -84,6 +84,10 @@ for source in source_nodes:
 # Visualization
 net.show_buttons()
 output_file = 'output/'+call_graph_file_name+'.html'
+# create output directory if it doesn't exist
+if not os.path.exists("output"):
+    os.makedirs("output")
+
 net.write_html(output_file)
 # If you want to open the file immediately use the following line instead
 # net.show(output_file)

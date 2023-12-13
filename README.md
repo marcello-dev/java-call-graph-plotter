@@ -6,20 +6,22 @@ This project allows generating and visualizing static call graphs for Spring/Jav
 
 After cloning the repository, create a Python 3.8 virtual environment in the project folder:
 ```bash
-python -m venv venv
+python -m venv .venv
 ```
 Activate the virtual environment and install the dependencies:
 ```bash
-source venv/activate
+source .venv/activate
 pip install -r requirements.txt
 ```
 
 # Usage
 
 Create a call graph from your Jar:
-```
+
+```java
 java -jar javacg/javacg-0.1-SNAPSHOT-static.jar your-jar.jar > call-graph.txt
 ```
+
 If you just want to test how it works, you can use the example jar in the folder *target-jar*:
 ```
 java -jar javacg/javacg-0.1-SNAPSHOT-static.jar target-jar/demo-customer-0.0.1-SNAPSHOT.jar > call-graph.txt
