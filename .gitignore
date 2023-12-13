@@ -4,3 +4,4 @@ venv
 output/*
 __pycache__
 call-graph.txt
+lib
